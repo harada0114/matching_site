@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#contents {
+    margin: 20px auto 0;
+    text-align: left;
+	border: none;
+}
+
+/* テーブル
+---------------------------*/
+#form_table {
+	width: 100%;
+}
+
+#form_table th {
+	width: 262px;
+	background: #f0f0f0;
+    vertical-align: top;
+}
+
+#form_table td {
+}
+
+.required {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 0px 5px;
+    margin: 0 0 0 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: right;
+}
+
+#regist_button {
+	padding: 10px 0;
+	text-align: center;
+}
